@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Goose Bistro Pizza Co.</title>
+</head>
+
+<body>
+
+  <fieldset>
+
+    <div>
+
+      <form method="post" action="form-data.html" >
+
+      <h1>Black Goose Bistro | Pizza-On-Demand</h1>
+
+      <p>
+        Our 12" wood-fired pizzas are available for delivery. 
+        Build your custom pizza and we'll deliver it within an hour.
+      </p>
+
+      <br>
+
+        <p style="font-weight: bold;">Your Information</p>
+        
+        <p>Name :
+          <input type="text" name="name" />
+        </p>
+        <p>Adress :
+          <input type="text" name="adress" />
+        </p>
+        <p>Phone Number :
+          <input type="number" name="phonenumber" />
+        </p>
+        <p> Email :
+          <input type="email" name="email" />
+        </p>
+        <p>Delivery Instructions :
+          <br>
+          <textarea 
+          style="border-radius: 10px;" 
+          name="instructions" 
+          cols="50" 
+          rows="5" 
+          maxlength="400" 
+          placeholder="No more than 400 characters long">
+          </textarea>
+        </p>
+
+        
+        <p style="font-weight: bold;">Desain your Dream Pizza:</p>
+        
+        <p>Pizza Specs</p>
+        
+        <p>Crust (Choose one) : <br>
+          <input type="radio" name="crust" value="cw">Class White <br>
+          <input type="radio" name="crust" value="m">Multigrain <br>
+          <input type="radio" name="crust" value="csc">Cheese-stuffed Crust <br>
+          <input type="radio" name="crust" value="gf">Gluten-free <br>
+        </p>
+
+        <p>Toppings (Choose as many as you want) :
+          <br>
+          <br>
+          <select name="topping" size="7" multiple>
+            <option value="rs">Red Sauce</option>
+            <option value="ws">White Sauce</option>
+            <option value="mc">Mozzarella Cheese</option>
+            <option value="p">Pepperoni</option>
+            <option value="mu">Mushrooms</option>
+            <option value="ps">Peppers</option>
+            <option value="a">Anchovies</option>
+          </select>
+        </p>
+
+        <p>Number <br> How Many Pizzas
+          <select name="number" size="1">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+          </select>
+        </p>
+
+        <br>
+
+        <button type="submit">Bring Me Pizza!</button> 
+        <button type="reset" >Reset</button> 
+        
+      </form>
+
+    </div>
+
+  </fieldset>
+
+</body>
+
+</html>
