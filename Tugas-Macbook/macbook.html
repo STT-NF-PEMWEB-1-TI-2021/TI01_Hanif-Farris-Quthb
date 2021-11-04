@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan Barang</title>
+</head>
+
+<style>
+    .header{
+        margin: auto;
+        border: 1px solid;
+        padding: 15px;
+        display: flex;
+        background-color: rgb(217, 217, 217)
+    }
+
+    .upload{
+        box-shadow: 3px 3px;
+        margin-left: 40px;
+    }
+
+    .imginput{
+        text-align: left;
+    }
+
+    .data{
+        font-weight: bold;
+        margin-top: -200px;
+        margin-left: 200px;
+    }
+
+    .input{
+        width: 300px;
+    }
+
+    .divbutton{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .button{
+        font-weight: bold;
+        width: 150px;
+        height: 35px;
+        color: white;
+        background-color: green;
+    }
+</style>
+
+<body>
+    
+    <div class="header">
+        <div>
+            <a style="margin-left: 70px; margin-right: 50px" href="home.html">Home</a>
+            <a style="margin-left: 50px; margin-right: 50px">|</a>
+            <a style="margin-left: 50px; margin-right: 50px" href="link.html">Generate Link</a>
+            <a style="margin-left: 50px; margin-right: 50px">|</a>
+            <a style="margin-left: 50px; margin-right: 50px" href="history.html">Transaction History</a>
+            <a style="margin-left: 50px; margin-right: 50px">|</a>
+            <a style="margin-left: 50px; margin-right: 50px" href="policy.html">Policy</a>
+            <a style="margin-left: 50px; margin-right: 50px">|</a>
+            <a style="margin-left: 50px" href="logout.html">Logout</a>
+        </div>
+    </div>
+    
+    <br>
+    
+    <div>
+        <div class="imginput">
+            <img src="images/img.png" alt="">
+        </div>
+        <div>
+            <button class="upload">
+                <label for="images"> Upload Images
+                    <input type="file" id="images" style="display: none;" />
+                </label>
+            </button>
+        </div>
+        <div class="data">
+            <div>
+                <label for="title"> Title Here :
+                    <input class="input" type="text" id="title" style="margin-left: 100px;">
+                </label>
+            </div>
+            <div>
+                <label for="desc"> Description :
+                    <br>
+                    <textarea class="input" id="desc" cols="30" rows="5" style="margin-left: 180px;"></textarea>
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="accnumber"> Account Number :
+                    <input class="input" type="number" id="accnumber" style="margin-left: 55px;">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="bank"> Bank :
+                    <select id="bank" style="width: 150px; margin-left: 130px;">
+                        <option value="hsbc">HSBC</option>
+                        <option value="visa">Visa</option>
+                        <option value="mc">Master Card</option>
+                        <option value="doge">Doge Coin</option>
+                        <option value="btc">Bitcoin</option>
+                    </select>
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="accholder"> Account Holder :
+                    <input class="input" type="text" id="accholder" style="margin-left: 60px;">
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="transaction"> Transaction :
+                    <input type="number" id="transaction" style="width: 25px; margin-left: 85px;">
+                    <div style="font-weight: normal; font-size: small; margin-left: 175px;">
+                        <div>
+                            * if the transaction is for 3 person, choose 3 from the drop-down list
+                        </div>
+                        <div style="color: green;">
+                            <input type="checkbox" name="" id="send1">
+                            <label for="send1">Send to Mobile Phone</label>
+                        </div>
+                        <div style="color: green;">
+                            <input type="checkbox" name="" id="send2">
+                            <label for="send2">Send to Email</label>
+                        </div>
+                </label>
+            </div>
+            <br>
+            <div>
+                <label for="phone"> Send to Mobile Phone :
+                    <input class="input" type="text" id="phone" style="margin-left: 15px;">
+                </label>
+                </div>
+            </div>
+            <br>
+            <div>
+                <label for="email"> Send to Email :
+                    <input class="input" type="text" id="email" style="margin-left: 70px;">
+                </label>
+                </div>
+            </div>
+    </div>
+    
+    <form class="divbutton">
+        <input class="button" type="submit" value="Generate Nabr Link"></input>
+    </form>
+
+</body>
+</html>
