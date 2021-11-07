@@ -1,0 +1,154 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    background-color: rgb(217, 217, 217)
+}
+
+.navbar {
+    font-size: 20px;
+}
+
+.iconmain img {
+    margin-top: 10px;
+}
+
+.iconmain h4 {
+    margin-left: 10px;
+}
+
+.searchncart {
+    display: flex;
+}
+
+.searchncart img {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+    ;
+}
+
+.searchncart h3 {
+    margin-left: 30px;
+}
+
+.content {
+    height: 700px;
+    width: 1000px
+}
+
+.section-cl {
+    align-items: center;
+    display: flex;
+}
+
+.icon-cl {
+    width: 60px;
+    height: 60px;
+}
+
+.section-confirm {
+    border-top: 2px solid lightgray;
+    width: 600px;
+    border-bottom: 2px solid lightgrey
+}
+
+.section-confirm p {
+    font-size: small;
+}
+
+.section-info1 {
+    display: flex;
+    align-items: center;
+    width: 350px;
+    font-size: 13px;
+}
+
+.section-info1 u {
+    color: blue;
+}
+
+.billadress {
+    margin-left: 80px;
+}
+
+.section-info2 {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    font-size: 13px;
+    border-bottom: 2px solid lightgray;
+}
+
+.paymethod {
+    margin-left: 100px;
+}
+
+.paymethod img {
+    width: 20px;
+    height: 20px;
+}
+
+.section-summary {
+    padding: 10px;
+    width: 250px;
+    height: 260px;
+    float: right;
+    background-color: rgb(217, 217, 217);
+    margin-top: -375px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.tikwa {
+    padding-left: 10px;
+}
+
+.duit {
+    padding-left: 10px;
+}
+
+.foot {
+    width: 1000px;
+    height: 100px;
+}
+
+.containerceil {
+    display: flex;
+    justify-content: space-between;
+}
+
+.kyra h4 {
+    font-weight: bold;
+}
+
+.touch p {
+    font-size: 10px;
+}
+
+.containerfloor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gopay {
+    width: 50px;
+    height: 30px;
+}
+
+.vmc {
+    width: 30px;
+    height: 30px;
+}
+
+.subscribe {
+    text-align: end;
+}
+
+.subscribe input {
+    font-size: 10px;
+
+}
