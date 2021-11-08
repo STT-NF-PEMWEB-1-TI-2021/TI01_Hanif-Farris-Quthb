@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 1px black solid;
+        }
+
+        .flex {
+            display: flex;
+        }
+        
+        div div div{
+            border: 3px black solid;
+            margin: 5px;
+        }
+
+        .box1{
+            background-color: yellow;
+            height: 60px;
+            width: 150px;
+        }
+
+        .box2{
+            background-color: orangered;
+            height: 60px;
+            width: 1320px;
+        }
+
+        .box3{
+            background-color: greenyellow;
+            width: 150px;
+            height: 540px;
+        }
+
+        .box4 {
+            background-color: gray;
+            width: 1150px;
+        }
+
+        .box5{
+            background-color: cyan;
+            width: 150px;
+        }
+
+        .box6 {
+            background-color: blue;
+            height: 60px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top flex">
+            <div class="box1">
+                Box 1
+            </div>
+            <div class="box2">
+                Box 2
+            </div>
+        </div>
+        <div class="middle flex">
+            <div class="box3">
+                Box 3
+            </div>
+            <div class="box4">
+                Box 4
+            </div>
+            <div class="box5">
+                Box 5
+            </div>
+        </div>
+        <div class="bottom flex">
+            <div class="box6">
+                Box 6
+            </div>
+        </div>
+    </div>
+</body>
+</html>

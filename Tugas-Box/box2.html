@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            border: 1px black solid;
+        }
+
+        .flex {
+            display: flex;
+        }
+        
+        div div div{
+            border: 3px black solid;
+            margin: 25px;
+        }
+
+        .box1{
+            background-color: greenyellow;
+            height: 75px;
+        }
+
+        .box3{
+            background-color: orangered;
+            width: 1200px;
+        }
+
+        .box5{
+            background-color: cyan;
+            width: 1200px;
+        }
+
+        .boxyellow {
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <div class="box1">
+                Box 1
+            </div>
+        </div>
+        <div class="middle flex">
+            <div class="box2 boxyellow">
+                Box 2
+            </div>
+            <div class="box3">
+                Box 3
+            </div>
+        </div>
+        <div class="bottom flex">
+            <div class="box4 boxyellow">
+                Box 4
+            </div>
+            <div class="box5">
+                Box 5
+            </div>
+        </div>
+    </div>
+</body>
+</html>
