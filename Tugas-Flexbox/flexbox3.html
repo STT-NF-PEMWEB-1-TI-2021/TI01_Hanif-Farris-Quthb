@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            min-height: 720px;
+            background-color: pink;
+            display: flex;
+            flex-direction: column;
+            margin: 25px;
+            font-size: 25px;
+            font-weight: bold;
+            color: white;
+        }
+
+        header, footer, aside, article{
+            text-align: center;
+            margin: 10px;
+        }
+
+        header, footer{
+            background-color: rgb(182, 182, 255);
+            height: 100px;
+        }
+
+        img{
+            background-color: rgb(199, 199, 199);
+            border: black 1px solid;
+            width: 300px;
+            height: 200px;
+        }
+
+        .content{
+            display: flex;
+            flex: 1;
+        }
+
+        aside{
+            background-color: rgb(42, 116, 255);
+            flex: 1;
+        }
+
+        article{
+            background-color: rgb(226, 64, 96);
+            flex: 2;
+            padding-top: 200px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>Header</header>
+    <div class="content">
+            <aside>Aside</aside>
+            <article>
+                <div>Article</div>
+                <img src="assets/logo.png" alt="">
+                <img src="assets/logo.png" alt="">
+                <img src="assets/logo.png" alt="">
+            </article>
+    </div>
+    <footer>Footer</footer>
+</body>
+</html>
