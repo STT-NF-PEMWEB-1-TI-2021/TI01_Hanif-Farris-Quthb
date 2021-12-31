@@ -1,0 +1,17 @@
+body {
+    max-width: 500px;
+    margin: auto;
+}
+
+table,
+th,
+td {
+    border: black 1px solid;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+}
+
+td {
+    width: 600px;
+}

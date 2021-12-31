@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Money Converter</title>
+</head>
+<body>
+    <fieldset>
+        <legend> Kurs Rupiah - Mata Uang Asing</legend>
+        <table>
+            <tr>   
+                <td>Masukan Nilai</td>
+                <td>Convert From</td>
+                <td>Nilai Rupiah</td>
+            </tr>
+            <tr>  
+                <td>
+                    <input type="number" id="input" onchange="convert()">
+                </td>
+                <td>
+                    <select id="currency" onchange="convert()">
+                        <option value="usd">USD  =  Rp. 9.915</option>
+                        <option value="sgd">SGD  =  Rp. 13.472</option>
+                        <option value="rm">Ringgit  =  Rp. 874</option>
+                        <option value="yen">Yen  =  Rp. 120</option>
+                        <option value="euro">Euro  =  Rp. 15.888</option>
+                        <option value="riyal">Riyal  =  Rp. 3.592</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="number" id="result" readonly>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    
+    <script src="assets/js/kurs.js"></script>
+</body>
+</html>
